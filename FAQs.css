@@ -142,34 +142,4 @@ header {
     
   }
 
-
-  body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0; /* Set a background color for better visibility */
-  }
-  
-  .moving-image {
-    width: 100px; /* Adjust the size of your image */
-    height: 100px;
-    background-image: url('WhatsApp Image 2024-01-21 at 8.38.07 PM.jpeg'); /* Replace with your image URL */
-    background-size: cover;
-    animation: moveImage 2s infinite linear; /* Adjust the animation duration and type */
-  }
-  
-  @keyframes moveImage {
-    0% {
-      transform: translateX(0);
-    }
-    50% {
-      transform: translateX(200px); /* Adjust the distance the image moves */
-    }
-    100% {
-      transform: translateX(0);
-    }
-  }
   
